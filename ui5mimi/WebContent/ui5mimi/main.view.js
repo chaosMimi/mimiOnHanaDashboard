@@ -14,10 +14,8 @@ sap.ui.jsview("ui5mimi.main", {
 	*/ 
 	createContent : function(oController) {
  		return new sap.m.Page({
-			title: "Title",
-			content: [
-			
-			]
+			title: "Mimi's Sensor Data Import/Export",
+			showNavButton : false
 		});
 	}
 
